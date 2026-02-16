@@ -1,4 +1,4 @@
-# CMPE 258 - Assignment 2
+# CMPE 258 - Assignment 1
 
 This assignment contains 4 artifacts. **Each artifact includes:**
 - ✅ Source code committed to GitHub
