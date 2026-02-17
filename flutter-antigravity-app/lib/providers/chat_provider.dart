@@ -5,7 +5,7 @@ import '../models/message.dart';
 import '../services/reminder_service.dart';
 
 // Your API Key
-const String _kApiKey = 'AIzaSyClKHITo656hEzJhS-EHTqChp55ImmRLnQ';
+const String _kApiKey = '';
 
 class ChatProvider extends ChangeNotifier {
   final ReminderService _reminderService;
