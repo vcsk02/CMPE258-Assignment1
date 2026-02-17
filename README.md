@@ -6,7 +6,7 @@ This assignment contains 4 artifacts. **Each artifact includes:**
 - ✅ A `README.md` with setup + how to run + screenshots/outputs
 
 ## 1) Colab: Multimodal (Image + Video + Text)
-- Colab Notebook: `Gemini_Multimodal_Showcase.ipynb` - https://colab.research.google.com/drive/1lRuCTS4TST41lE8okwVQS67eL7cZgQR2?usp=sharing
+- Colab Notebook: https://colab.research.google.com/drive/1lRuCTS4TST41lE8okwVQS67eL7cZgQR2?usp=sharing
 - Video walkthrough: <PASTE_YOUTUBE_LINK>
 
 ## 2) Full-stack Web App (built using Antigravity / agentic tool)
@@ -20,8 +20,7 @@ This assignment contains 4 artifacts. **Each artifact includes:**
 - Video walkthrough: <PASTE_YOUTUBE_LINK>
 
 ## 4) MNIST Classifier (Keras) with Metrics
-- Folder: `mnist-keras/`
-- Notebook: `mnist_classifier.ipynb`
+- Notebook: https://colab.research.google.com/drive/18U4rhPOezjBHQ_dPV2EOjojWrtwznOWY?usp=sharing
 - Video walkthrough: <PASTE_YOUTUBE_LINK>
 
 ---
