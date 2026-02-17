@@ -158,81 +158,128 @@ export default function TodoApp({ uid }: { uid: string }) {
 }
 
 const styles: Record<string, any> = {
-  wrap: { maxWidth: 820, margin: "40px auto", padding: 16, fontFamily: "ui-sans-serif, system-ui" },
-  top: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12 },
-  h1: { margin: 0, fontSize: 22 },
-  card: {
-    marginTop: 16,
-    border: "1px solid rgba(0,0,0,0.12)",
-    borderRadius: 14,
+  wrap: {
+    maxWidth: 920,
+    margin: "40px auto",
     padding: 16,
-    background: "white",
+    fontFamily: "ui-sans-serif, system-ui",
+    color: "#EAF2FF",
   },
+
+  top: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: 12,
+    marginBottom: 12,
+  },
+
+  h1: { margin: 0, fontSize: 22, letterSpacing: 0.2 },
+
+  card: {
+    marginTop: 8,
+    border: "1px solid rgba(120, 160, 255, 0.25)",
+    borderRadius: 18,
+    padding: 16,
+    background: "rgba(10, 16, 30, 0.75)",
+    backdropFilter: "blur(10px)",
+    boxShadow: "0 12px 40px rgba(0,0,0,0.45)",
+  },
+
   row: { display: "flex", alignItems: "center", gap: 10, marginTop: 10, flexWrap: "wrap" },
+
   input: {
     flex: 1,
-    minWidth: 220,
-    padding: "10px 12px",
-    borderRadius: 10,
-    border: "1px solid rgba(0,0,0,0.2)",
+    minWidth: 240,
+    padding: "11px 12px",
+    borderRadius: 12,
+    border: "1px solid rgba(120, 160, 255, 0.25)",
+    outline: "none",
+    background: "rgba(255,255,255,0.06)",
+    color: "#EAF2FF",
   },
+
   btn: {
-    padding: "9px 12px",
-    borderRadius: 10,
-    border: "1px solid rgba(0,0,0,0.2)",
-    background: "#f7f7f7",
+    padding: "10px 12px",
+    borderRadius: 12,
+    border: "1px solid rgba(120, 160, 255, 0.25)",
+    background: "rgba(255,255,255,0.06)",
+    color: "#EAF2FF",
     cursor: "pointer",
   },
+
   btnPrimary: {
-    padding: "9px 12px",
-    borderRadius: 10,
-    border: "1px solid rgba(0,0,0,0.2)",
-    background: "#111",
+    padding: "10px 14px",
+    borderRadius: 12,
+    border: "1px solid rgba(0,0,0,0.25)",
+    background: "linear-gradient(135deg, #7C3AED, #06B6D4)",
     color: "white",
     cursor: "pointer",
+    fontWeight: 600,
   },
+
   btnDanger: {
-    padding: "9px 12px",
-    borderRadius: 10,
-    border: "1px solid rgba(220, 38, 38, 0.35)",
-    background: "rgba(220, 38, 38, 0.08)",
+    padding: "10px 12px",
+    borderRadius: 12,
+    border: "1px solid rgba(239, 68, 68, 0.45)",
+    background: "rgba(239, 68, 68, 0.12)",
+    color: "#FFD6D6",
     cursor: "pointer",
   },
+
   pill: {
-    padding: "6px 10px",
+    padding: "7px 12px",
     borderRadius: 999,
-    border: "1px solid rgba(0,0,0,0.2)",
+    border: "1px solid rgba(120, 160, 255, 0.25)",
     background: "transparent",
+    color: "#CFE0FF",
     cursor: "pointer",
   },
+
   pillOn: {
-    padding: "6px 10px",
+    padding: "7px 12px",
     borderRadius: 999,
-    border: "1px solid rgba(0,0,0,0.2)",
-    background: "#111",
+    border: "1px solid rgba(124, 58, 237, 0.6)",
+    background: "rgba(124, 58, 237, 0.25)",
     color: "white",
     cursor: "pointer",
+    boxShadow: "0 0 0 2px rgba(6,182,212,0.15) inset",
   },
+
   err: {
     marginTop: 10,
     padding: 10,
-    borderRadius: 10,
-    background: "rgba(220,38,38,0.08)",
-    border: "1px solid rgba(220,38,38,0.25)",
+    borderRadius: 12,
+    background: "rgba(239,68,68,0.14)",
+    border: "1px solid rgba(239,68,68,0.35)",
+    color: "#FFD6D6",
   },
+
   todo: {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
     gap: 12,
-    padding: "10px 12px",
-    borderRadius: 12,
-    border: "1px solid rgba(0,0,0,0.12)",
+    padding: "12px 12px",
+    borderRadius: 14,
+    border: "1px solid rgba(120, 160, 255, 0.20)",
+    background: "rgba(255,255,255,0.05)",
     marginTop: 10,
   },
+
   todoLeft: { display: "flex", alignItems: "center", gap: 10, flex: 1 },
-  todoText: { lineHeight: 1.3 },
+
+  todoText: { lineHeight: 1.3, color: "#EAF2FF" },
+
   done: { textDecoration: "line-through", opacity: 0.65 },
+
   todoRight: { display: "flex", gap: 8, alignItems: "center" },
-  select: { padding: "8px 10px", borderRadius: 10, border: "1px solid rgba(0,0,0,0.2)" },
+
+  select: {
+    padding: "9px 10px",
+    borderRadius: 12,
+    border: "1px solid rgba(120, 160, 255, 0.25)",
+    background: "rgba(0,0,0,0.25)",
+    color: "#EAF2FF",
+  },
 };
