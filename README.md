@@ -12,7 +12,7 @@ This assignment contains 4 artifacts. **Each artifact includes:**
 ## 2) Full-stack Web App (built using Antigravity / agentic tool)
 - Folder: `webapp-antigravity-todo/`
 - Deployed URL: <PASTE_DEPLOY_URL>
-- Video walkthrough: <PASTE_YOUTUBE_LINK>
+- Video walkthrough: https://youtu.be/YRSb8Hv1ULA
 
 ## 3) Cross-platform Mobile App (Flutter) (built using Antigravity / agentic tool)
 - Folder: `flutter-antigravity-app/`
