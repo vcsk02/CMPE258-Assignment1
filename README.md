@@ -21,7 +21,7 @@ This assignment contains 4 artifacts. **Each artifact includes:**
 
 ## 4) MNIST Classifier (Keras) with Metrics
 - Notebook: https://colab.research.google.com/drive/18U4rhPOezjBHQ_dPV2EOjojWrtwznOWY?usp=sharing
-- Video walkthrough: <PASTE_YOUTUBE_LINK>
+- Video walkthrough: [<PASTE_YOUTUBE_LINK>](https://youtu.be/3BTg8nsYhJ4)
 
 ---
 ## How to grade quickly (what to look for)
