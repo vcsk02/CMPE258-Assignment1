@@ -6,7 +6,7 @@ This assignment contains 4 artifacts. **Each artifact includes:**
 - ✅ A `README.md` with setup + how to run + screenshots/outputs
 
 ## 1) Colab: Multimodal (Image + Video + Text)
-- Colab Notebook: https://colab.research.google.com/drive/1lRuCTS4TST41lE8okwVQS67eL7cZgQR2?usp=sharing
+- Colab Notebook: https://colab.research.google.com/drive/15QjYh6U7SpJuUFGAMSMmwP7UXwXB07Ov?usp=sharing
 - Video walkthrough: <PASTE_YOUTUBE_LINK>
 
 ## 2) Full-stack Web App (built using Antigravity / agentic tool)
