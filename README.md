@@ -11,13 +11,11 @@ This assignment contains 4 artifacts. **Each artifact includes:**
 
 ## 2) Full-stack Web App (built using Antigravity / agentic tool)
 - Folder: `webapp-antigravity-todo/`
-- Deployed URL: <PASTE_DEPLOY_URL>
 - Video walkthrough: https://youtu.be/YRSb8Hv1ULA
 
 ## 3) Cross-platform Mobile App (Flutter) (built using Antigravity / agentic tool)
 - Folder: `flutter-antigravity-app/`
-- APK / Web build / demo: <PASTE_LINKS>
-- Video walkthrough: <PASTE_YOUTUBE_LINK>
+- Video walkthrough: https://youtu.be/Df0qVOUXr6c
 
 ## 4) MNIST Classifier (Keras) with Metrics
 - Notebook: https://colab.research.google.com/drive/18U4rhPOezjBHQ_dPV2EOjojWrtwznOWY?usp=sharing
