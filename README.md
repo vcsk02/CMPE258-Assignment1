@@ -7,7 +7,7 @@ This assignment contains 4 artifacts. **Each artifact includes:**
 
 ## 1) Colab: Multimodal (Image + Video + Text)
 - Colab Notebook: https://colab.research.google.com/drive/15QjYh6U7SpJuUFGAMSMmwP7UXwXB07Ov?usp=sharing
-- Video walkthrough: <PASTE_YOUTUBE_LINK>
+- Video walkthrough: https://youtu.be/olUzgkMrlJI
 
 ## 2) Full-stack Web App (built using Antigravity / agentic tool)
 - Folder: `webapp-antigravity-todo/`
